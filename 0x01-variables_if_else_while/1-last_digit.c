@@ -6,6 +6,7 @@
  *description: 'Get the last digit of a number'
  *return: always zero
  */
+ /* betty style doc for function main goes there */
 int main(void)
 {
 	int n;
