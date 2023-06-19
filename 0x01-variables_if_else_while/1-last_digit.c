@@ -3,10 +3,9 @@
 #include <stdio.h>
 /**
  *main - Entry point of program
- *description: 'Get the last digit of a number'
- *return: always zero
+ *Description: 'print the last digit of the number stored in the variable n'
+ *Return: always zero
  */
- /* betty style doc for function main goes there */
 int main(void)
 {
 	int n;
