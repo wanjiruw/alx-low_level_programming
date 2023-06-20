@@ -2,13 +2,13 @@
 /**
  *main - 'prints _putchar to standard output followed by a new line'
  *
- *Return: always zero (success)
+ *Return: always zero 
  */
 
 
 
 int main(void)
-	{
+{
 	_putchar('_');
 	_putchar('p');
 	_putchar('u');
