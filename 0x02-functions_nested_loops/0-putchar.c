@@ -2,7 +2,7 @@
 /**
  *main - 'prints _putchar to standard output followed by a new line'
  *
- *Return: always zero 
+ *Return: always zero
  */
 
 
@@ -20,4 +20,4 @@ int main(void)
 	_putchar('\n');
 
 	return (0);
-}	
+}
