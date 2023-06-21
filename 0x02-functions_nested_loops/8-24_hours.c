@@ -1,6 +1,8 @@
 #include "main.h"
 /**
- *Jack_bauer - prints the minutes of a day
+ *jack_bauer - prints the minutes of a day
+ *
+ *@a@b@c@d: interger variables for hours and minutes
  *
  *Return: no return
  */
