@@ -1,10 +1,10 @@
 #include "main.h"
+
 /**
  * print_alphabet_x10 - 'print the alphabet 10 times'
  *
  *Return: always zero
  */
-
 void print_alphabet_x10(void)
 {
 	int n;
@@ -15,4 +15,5 @@ void print_alphabet_x10(void)
 		_putchar(k);
 	}
 	_putchar('\n');
+	return (0);
 }
