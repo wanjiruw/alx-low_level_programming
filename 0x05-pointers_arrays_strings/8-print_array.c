@@ -21,7 +21,7 @@ void print_array(int *a, int n)
 			break;
 		}
 
-		if (i == n - 1)
+		if (i == 4)
 
 		{
 			printf("%d", *(a + i));
