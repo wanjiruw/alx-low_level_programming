@@ -12,16 +12,19 @@ void print_array(int *a, int n)
 {
 	int i;
 
-	n = sizeof(a);
+	if (n == 0)
+	{
+		n = sizeof(a);
+	}
 
 	for (i = 0; i < n; i++)
 	{
-		if (i > 4)
+		if (i > n)
 		{
 			break;
 		}
 
-		if (i == 4)
+		if (i == n - 1)
 
 		{
 			printf("%d", *(a + i));
