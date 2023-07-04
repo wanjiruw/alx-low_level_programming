@@ -16,6 +16,11 @@ void print_array(int *a, int n)
 
 	for (i = 0; i < n; i++)
 	{
+		if (i > 4)
+		{
+			break;
+		}
+
 		if (i == n - 1)
 
 		{
