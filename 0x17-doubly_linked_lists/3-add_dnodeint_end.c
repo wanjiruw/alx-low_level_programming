@@ -1,13 +1,12 @@
 #include "lists.h"
 /**
- *add_dnodeint_end - adds node to chain of double lists
+ *add_dnodeint_end - Adds a new node at the end of a dlistint_t list.
  *@head: pointer to a list
  *@n: integer value to add to a list
- *return: pointer to head list, NULL if it fails
+ *Return: pointer to head list, NULL if it fails
  */
 
 dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
-
 {
 	dlistint_t *current;
 	dlistint_t *new_node;
